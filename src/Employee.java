@@ -1,9 +1,9 @@
 public class Employee {
-    private int id;
-    private String name;
-    private String cpf;
-    private String role;
-    private String photoPath;
+    private final  int id;
+    private final String name;
+    private final String cpf;
+    private final String role;
+    private final String photoPath;
 
     public Employee(int id, String name, String cpf, String role, String photoPath) {
         this.id = id;
